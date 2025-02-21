@@ -1,0 +1,251 @@
+body {
+    background-color: blue;
+}
+
+h1 {
+    color: gold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: absolute;
+    top: 3vh;
+    left: 25%;
+    transform: translateX(-50%);
+    font-size: 2em;
+    padding: 1em;
+}
+
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 1.5em; 
+        top: 10vh; 
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.2em;
+        top: 15vh; 
+    }
+}
+
+#subName {
+    position: absolute;
+    top: 20vh;
+    left: 25%;
+    transform: translateX(-50%);
+}
+
+
+@media (max-width: 768px) {
+    #subName {
+        top: 25vh; 
+    }
+}
+
+@media (max-width: 480px) {
+    #subName {
+        top: 30vh; 
+    }
+}
+
+#playerName {
+    position: absolute;
+    top: 15vh;
+    left: 25%;
+    transform: translateX(-50%);
+}
+
+@media (max-width: 768px) {
+    #playerName {
+        top: 20vh; 
+    }
+}
+
+@media (max-width: 480px) {
+    #playerName {
+        top: 25vh; 
+    }
+}
+
+
+#greeting {
+    color: gold;
+    font-size: large;
+    position: absolute;
+    top: 22vh;
+    left: 25%;
+    transform: translateX(-50%);
+}
+
+@media (max-width: 768px) {
+    #greeting {
+        top: 30vh; 
+    }
+}
+
+@media (max-width: 480px) {
+    #greeting {
+        top: 35vh; 
+    }
+}
+
+h2 {
+    color: gold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: absolute;
+    top: 3vh;
+    left: 75%;
+    transform: translateX(-50%);
+    font-size: 2em;
+    padding: 1em;
+}
+
+
+@media (max-width: 768px) {
+    h2 {
+        font-size: 1.5em; 
+        top: 10vh; 
+    }
+}
+
+@media (max-width: 480px) {
+    h2 {
+        font-size: 1.2em;
+        top: 15vh; 
+    }
+}
+
+#subName1 {
+    position: absolute;
+    top: 20vh;
+    left: 75%;
+    transform: translateX(-50%);
+}
+
+
+@media (max-width: 768px) {
+    #subName1 {
+        top: 25vh; 
+    }
+}
+
+@media (max-width: 480px) {
+    #subName1 {
+        top: 50vh; 
+    }
+}
+
+#playerName1 {
+    position: absolute;
+    top: 15vh;
+    left: 75%;
+    transform: translateX(-50%);
+}
+
+@media (max-width: 768px) {
+    #playName1 {
+        top: 20vh; 
+    }
+}
+
+@media (max-width: 480px) {
+    #playName1 {
+        top: 25vh; 
+    }
+}
+
+
+#greeting1 {
+    color: gold;
+    font-size: large;
+    position: absolute;
+    top: 22vh;
+    left: 75%;
+    transform: translateX(-50%);
+}
+
+@media (max-width: 768px) {
+    #greeting1 {
+        top: 30vh; 
+    }
+}
+
+@media (max-width: 480px) {
+    #greeting1 {
+        top: 35vh; 
+    }
+}
+
+h3 {
+    color: gold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: absolute;
+    top: 1vh;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 1.5em;
+    padding: 1em;
+}
+
+@media (max-width: 768px) {
+    h3 {
+        top: 30vh; 
+    }
+}
+
+@media (max-width: 480px) {
+    h3{
+        top: 35vh; 
+    }
+}
+
+#startButton {
+    position: absolute;
+    top: 35vh;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+@media (max-width: 768px) {
+    #startButton {
+        top: 30vh; 
+    }
+}
+
+@media (max-width: 480px) {
+    #startButton {
+        top: 35vh; 
+    }
+}
+
+#player1Hand, #player2Hand {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 30%; /* Adjust the width as needed */
+    height: 300px; /* Adjust the height as needed */
+    overflow: auto; /* Add scroll if needed */
+    padding: 10px; /* Optional: Add padding */
+    background-color: rgba(255, 255, 255, 0.1); /* Optional: Add background color */
+}
+
+#player1Hand {
+    position: absolute;
+    top: 40vh;
+    left: 20%;
+    transform: translateX(-50%);
+}
+
+#player2Hand {
+    position: absolute;
+    top: 40vh;
+    left: 80%;
+    transform: translateX(-50%);
+}
+
+.card {
+    width: 50px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin: 5px; /* Add some space between cards */
+}

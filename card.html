@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Start</title>
+    <link rel="stylesheet" href="card.css">
+</head>
+<body>
+    <h1 id="heading1">Enter Your Name</h1>
+    <input type="text" id="playerName" placeholder="Choose Your Name">
+    <button id="subName" onClick="submitName()">Submit</button>
+    <p id="greeting"></p>
+
+    <h2 id="heading2">Enter Your Name</h2>
+    <input type="text" id="playerName1" placeholder="Choose Your Name">
+    <button id="subName1" onClick="submitName1()">Submit</button>
+    <p id="greeting1"></p>
+
+    <button id="startButton" style="display: none;" onClick="startGame()">Start Game</button>
+
+    <div id="player1Hand"></div>
+    <div id="player2Hand"></div>
+
+    <div id="playerNames"></div> <!-- New element to display player names -->
+
+    <h4 id="gameStatus" style="display: none;">Game Started!</h4> <!-- New h4 element -->
+
+    <script src="card.js"></script>
+</body>
+</html>
